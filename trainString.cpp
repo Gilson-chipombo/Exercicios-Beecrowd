@@ -40,6 +40,19 @@ int main()
         //cout << str.empty() << endl;
     }
 
-  
+    {
+        //Element access
+        string str = "Gilson";
+        cout << str.at(0) << endl;
+        cout << str.at(str.size() -1) << endl;
+
+        cout << str.front() << endl;
+        cout << str.back() << endl;
+
+        str.front() = 'W';
+        str.back() = 'N';
+        cout << str << endl;
+
+    }
     return 0;
 }

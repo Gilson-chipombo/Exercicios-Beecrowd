@@ -1,8 +1,8 @@
 CXX = c++
 CXXFLAGS = -Wall -std=c++17
-SRC = trainString.cpp
+SRC = 1212-Aritmetica-primaria.cpp
 OBJS = $(SRC:.cpp=.o)
-NAME = trainString
+NAME = 1212-Aritmetica-primaria
 
 all: $(NAME)
 $(NAME): $(OBJS)

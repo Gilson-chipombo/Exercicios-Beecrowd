@@ -43,6 +43,12 @@ int main()
     {
         //Element access
         string str = "Gilson";
+
+        str.resize(4, 0);
+
+
+        
+
         cout << str.at(0) << endl;
         cout << str.at(str.size() -1) << endl;
 

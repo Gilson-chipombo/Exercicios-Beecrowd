@@ -41,3 +41,41 @@ int main()
     }
     return 0;
 }
+
+/*
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    int a = 1000;
+    int b = 1;
+
+    string sa = to_string(a);
+    string sb = to_string(b);
+
+    // iguala o tamanho com zeros à esquerda
+    int maxLen = max(sa.size(), sb.size());
+    sa.insert(sa.begin(), maxLen - sa.size(), '0');
+    sb.insert(sb.begin(), maxLen - sb.size(), '0');
+
+    cout << sa << endl;  // 1000
+    cout << sb << endl;  // 0001
+
+    // exemplo: soma dígito a dígito
+    string resultado;
+    int carry = 0;
+    for (int i = maxLen - 1; i >= 0; i--) {
+        int soma = (sa[i] - '0') + (sb[i] - '0') + carry;
+        carry = soma / 10;
+        resultado.push_back((soma % 10) + '0');
+    }
+    if (carry) resultado.push_back(carry + '0');
+    reverse(resultado.begin(), resultado.end());
+
+    cout << "Resultado: " << resultado << endl;  // 1001
+}
+
+
+*/

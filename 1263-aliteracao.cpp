@@ -44,3 +44,43 @@ int main()
         cout << aliteration(str) << endl;
     }
 }
+
+
+/*
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string linha;
+
+    while (getline(cin, linha)) {
+        stringstream ss(linha);
+        string palavra;
+        vector<char> iniciais;
+
+        // Extrai a primeira letra de cada palavra, tudo minúsculo
+        while (ss >> palavra) {
+            iniciais.push_back(tolower(palavra[0]));
+        }
+
+        int aliteracoes = 0;
+        char anterior = 0;
+        bool dentro = false;
+
+        for (int i = 0; i < iniciais.size(); i++) {
+            if (iniciais[i] == anterior) {
+                if (!dentro) {
+                    aliteracoes++;
+                    dentro = true; // marca que já contamos esse grupo
+                }
+            } else {
+                dentro = false; // quebra o grupo
+            }
+            anterior = iniciais[i];
+        }
+
+        cout << aliteracoes << endl;
+    }
+    return 0;
+}
+*/

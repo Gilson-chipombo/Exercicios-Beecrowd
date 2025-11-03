@@ -1,8 +1,8 @@
 CXX = c++
 CXXFLAGS = -Wall -std=c++17
-SRC = 1024-criptografia.cpp
+SRC = 1168-LED.cpp
 OBJS = $(SRC:.cpp=.o)
-NAME = 1024-criptografia
+NAME = 1168-LED
 
 all: $(NAME)
 $(NAME): $(OBJS)

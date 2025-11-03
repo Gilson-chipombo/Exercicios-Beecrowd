@@ -1,8 +1,8 @@
 CXX = c++
 CXXFLAGS = -Wall -std=c++17
-SRC = 1212-Aritmetica-primaria.cpp
+SRC = 1272-sms-Oculta.cpp
 OBJS = $(SRC:.cpp=.o)
-NAME = 1212-Aritmetica-primaria
+NAME = 1272-sms-Oculta
 
 all: $(NAME)
 $(NAME): $(OBJS)

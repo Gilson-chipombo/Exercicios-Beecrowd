@@ -1,8 +1,8 @@
 CXX = c++
 CXXFLAGS = -Wall -std=c++17
-SRC = 1234-Sentenca-Dancante.cpp
+SRC = 1235-De-dentro-para-fora.cpp
 OBJS = $(SRC:.cpp=.o)
-NAME = 1234-Sentenca-Dancante
+NAME = 1235-De-dentro-para-fora
 
 all: $(NAME)
 $(NAME): $(OBJS)

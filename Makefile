@@ -1,8 +1,8 @@
 CXX = c++
 CXXFLAGS = -Wall -std=c++17
-SRC = 1235-De-dentro-para-fora.cpp
+SRC = 1237-Comparacao-de-Substring.cpp
 OBJS = $(SRC:.cpp=.o)
-NAME = 1235-De-dentro-para-fora
+NAME = 1237-Comparacao-de-Substring
 
 all: $(NAME)
 $(NAME): $(OBJS)

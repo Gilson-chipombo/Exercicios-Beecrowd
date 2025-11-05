@@ -31,3 +31,28 @@ int main()
     }
     return (0);
 }
+
+/*
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string s1, s2;
+    while (getline(cin, s1) && getline(cin, s2)) {
+        size_t max_len = 0;
+
+        for (size_t i = 0; i < s1.size(); i++) {
+            for (size_t j = 1; j <= s1.size() - i; j++) {
+                string sub = s1.substr(i, j);
+                if (s2.find(sub) != string::npos)
+                    max_len = max(max_len, sub.size());
+                else
+                    break; // não precisa testar substrings maiores a partir de i
+            }
+        }
+        cout << max_len << endl;
+    }
+    return 0;
+}
+
+*/

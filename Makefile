@@ -1,8 +1,8 @@
 CXX = c++
 CXXFLAGS = -Wall -std=c++17
-SRC = 1238-Combinador.cpp
+SRC = 1239-Atalhos-Bloggo.cpp
 OBJS = $(SRC:.cpp=.o)
-NAME = 1238-Combinador
+NAME = 1239-Atalhos-Bloggo
 
 all: $(NAME)
 $(NAME): $(OBJS)

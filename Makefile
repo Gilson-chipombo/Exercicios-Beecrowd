@@ -1,8 +1,8 @@
 CXX = c++
 CXXFLAGS = -Wall -std=c++17
-SRC = 1253-Cifra-de-Cesar.cpp
+SRC = leetCode.cpp
 OBJS = $(SRC:.cpp=.o)
-NAME = 1253-Cifra-de-Cesar
+NAME = leetCode
 
 all: $(NAME)
 $(NAME): $(OBJS)

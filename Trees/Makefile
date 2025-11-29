@@ -1,8 +1,8 @@
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++17
-SRCS = insertAndPrintTree.cpp
+SRCS = in-order.cpp
 OBJS = $(SRCS:.cpp=.o)
-NAME = insertAndPrintTree
+NAME = in-order
 
 all: $(NAME)
 $(NAME): $(OBJS)
